@@ -1,0 +1,32 @@
+# 数据文件(版权限制,严禁上传原始数据)
+*.csv
+*.xlsx
+*.orc
+*.parquet
+data/
+
+# 模型产物(体积大,可复现)
+*.model
+*.pkl
+*.joblib
+*.json
+models/
+
+# Python 虚拟环境 + 缓存
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# FineBI 本地缓存
+*.tmp
+*.log
