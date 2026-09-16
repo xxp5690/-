@@ -103,7 +103,7 @@ DWD → Python 特征工程 → user_features(10000行)
 ├── models/
 │   └── xgboost_double12.json     # 训练好的模型
 ├── docs/
-│   └── 仪表板.pdf                # FineBI 大屏导出 PDF
+│   └── finebi_dashboard.pdf     # FineBI 大屏导出 PDF(GitHub 不支持 PDF 预览,请下载本地查看)
 ├── .gitignore
 └── README.md
 ```
@@ -178,7 +178,7 @@ python code/export_dashboard_data.py
 
 1. 配置 HiveServer2 数据连接:`jdbc:hive2://hadoop100:10000/ecommerce`
 2. 抽取 4 张 ADS 表 + 上传 3 个 CSV(lift_table / feature_importance / kpi)
-3. 新建仪表板,7 个组件拖拽配置(详见 docs/仪表板.pdf)
+3. 新建仪表板,7 个组件拖拽配置(详见 docs/finebi_dashboard.pdf,请下载本地打开)
 
 ## 数据集说明
 
